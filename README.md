@@ -37,9 +37,4 @@ A modern, responsive, and SEO-optimized personal portfolio website built with Ne
 | Skills            | `config/skills.ts`        |
 | Projects          | `config/projects.ts`      |
 | Experience        | `config/experience.ts`    |
-| Contributions     | `config/contributions.ts` |
 | Social Links      | `config/socials.ts`       |
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).

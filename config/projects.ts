@@ -84,6 +84,61 @@ export const Projects: ProjectInterface[] = [
     },
   },
 
+    // Photo Editor Ai
+    {
+    id: "photoeditorai",
+    companyName: "Photo Editor AI (Next.js + Python)",
+    type: "Personal",
+    category: ["Full Stack", "Web Dev"],
+    shortDescription:
+      "An AI-powered photo editing application built with Next.js and Python, featuring background removal, image enhancement, AI filters, and more.",
+    websiteLink: "https://photoeditor.rony.studio/",
+    githubLink: "https://github.com/mahfujalarony/Photo-Editor-Ai",
+    techStack: ["Next.js", "Python", "Tailwind CSS"],
+    startDate: new Date("2025-03-01"),
+    endDate: new Date("2025-05-01"),
+    companyLogoImg: "/projects/coverproject/photoeditor2.png",
+    pagesInfoArr: [
+      {
+        title: "Photo Editor Interface",
+        description:
+          "A clean, intuitive photo editing interface with AI-powered tools for background removal, enhancement, and creative filters.",
+        imgArr: ["/projects/details/photoeditor/1.png"],
+      },
+      {
+        title: "Background Editor",
+        description:
+          "AI-powered background editing tool to replace or modify image backgrounds seamlessly.",
+        imgArr: ["/projects/details/photoeditor/backgroundeditor.png"],
+      },
+      {
+        title: "Background Removal",
+        description:
+          "Instantly remove backgrounds from photos using AI — clean, precise, and automatic.",
+        imgArr: ["/projects/details/photoeditor/backgroundremove.png"],
+      },
+      {
+        title: "Eraser Tool",
+        description:
+          "Smart eraser tool to remove unwanted objects or elements from photos with AI assistance.",
+        imgArr: ["/projects/details/photoeditor/Earse.png"],
+      },
+    ],
+    descriptionDetails: {
+      paragraphs: [
+        "An AI-powered photo editing platform that combines a Next.js frontend with a Python backend to deliver intelligent image processing capabilities. Users can upload photos and apply a variety of AI-driven transformations seamlessly.",
+        "The application features background removal, image enhancement, AI-based filters, and other editing tools — all accessible through a modern, responsive interface built with Tailwind CSS.",
+      ],
+      bullets: [
+        "Built a full-stack AI photo editor with Next.js frontend and Python backend.",
+        "Implemented AI-powered background removal and image enhancement features.",
+        "Developed AI-based creative filters and image transformation tools.",
+        "Designed a responsive, modern UI with Tailwind CSS for all device sizes.",
+        "Deployed with custom domain at photoeditor.rony.studio.",
+      ],
+    },
+  },
+
   // airport service booking
   {
     id: "airport-service-booking",

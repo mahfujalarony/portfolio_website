@@ -77,14 +77,14 @@ export default function IndexPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(softwareSchema) }}
       />
 
-      <section className="space-y-6 mt-10 md:mt-20 pb-8 pt-6 mb-0 md:pb-12 md:py-20 lg:py-32 h-screen flex items-center">
-        <div className="container flex max-w-[64rem] flex-col items-center gap-4 text-center -mt-20">
+      <section className="space-y-6 mt-10 md:mt-20 pb-8 pt-6 mb-0 md:pb-12 md:py-20 lg:py-32 min-h-[calc(100svh-10rem)] flex items-center overflow-visible">
+        <div className="container flex max-w-[64rem] flex-col items-center gap-4 text-center">
           <Image
             src={profileImg}
             height={100}
             width={100}
             sizes="100vw"
-            className="bg-primary rounded-full mb-0 h-auto md:mb-2 w-[60%] max-w-[16rem] border-8 border-primary"
+            className="bg-primary rounded-full mb-0 h-auto md:mb-2 w-[60%] max-w-[16rem] shrink-0 border-8 border-primary"
             alt="Mahfuj Alam - Full Stack Developer Portfolio"
             priority
           />
