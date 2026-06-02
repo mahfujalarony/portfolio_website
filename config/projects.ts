@@ -176,6 +176,61 @@ export const Projects: ProjectInterface[] = [
     },
   },
 
+  // Nexus Global Shop
+{
+  id: "nexus-global-shop",
+  companyName: "Nexus Global Shop",
+  type: "Personal",
+  category: ["Full Stack", "Web Dev"],
+  shortDescription:
+    "A full-featured multi-vendor e-commerce platform with separate Admin, Merchant, and User panels, real-time support chat, digital wallet, and a dedicated image upload server built for cPanel deployment.",
+  websiteLink: "https://nexus-global-shop.netlify.app/",
+  githubLink: "https://github.com/mahfujalarony/Nexus-Global-Shop",
+  techStack: ["React", "Vite", "Express.js", "MySQL", "Socket.io", "Tailwind CSS", "Redux Toolkit", "JWT"],
+  startDate: new Date("2024-08-01"),
+  endDate: new Date("2024-10-01"),
+  companyLogoImg: "/projects/coverproject/nexus.png",
+  pagesInfoArr: [
+    {
+      title: "User — Shop Interface",
+      description:
+        "Customers can browse products by category, place orders, track deliveries, use a digital wallet, redeem gift cards, and get real-time support via live chat.",
+      imgArr: ["/projects/coverproject/nexus.png"],
+    },
+    {
+      title: "Merchant — Store Panel",
+      description:
+        "Merchants can manage their own store, add and update products with images, track incoming orders, and view sales analytics.",
+      imgArr: ["/projects/details/nexus/merchant.png"],
+    },
+    {
+      title: "Admin — Dashboard",
+      description:
+        "Admins have full control over the platform — managing users, merchants, orders, offers, balance top-up approvals, and support chat. Sub-admins can be created with granular permissions.",
+      imgArr: ["/projects/details/nexus/admin.png"],
+    },
+    {
+      title: "Real-time Support Chat",
+      description:
+        "A dedicated Socket.io-powered support chat system with typing indicators, read receipts, online presence tracking, and guest user support with an automatic first-reply bot.",
+      imgArr: ["/projects/details/nexus/support.png"],
+    },
+  ],
+  descriptionDetails: {
+    paragraphs: [
+      "Nexus Global Shop is a full-stack multi-vendor e-commerce platform built with React (Vite) on the frontend and Express.js with MySQL on the backend. The platform supports three distinct roles — Admin, Merchant, and User — each with a dedicated interface and access control.",
+      "The project is split into four independent services: the main Frontend, the Backend API, a real-time Chat Server (Socket.io), and a dedicated Image Upload Server. This separation was intentionally designed for straightforward cPanel hosting, where each service runs as its own Node.js application.",
+    ],
+    bullets: [
+      "Built a multi-role platform with separate dashboards for Admin, Merchant, and Customer, including a Sub-Admin system with granular permission control.",
+      "Implemented real-time Support Chat using Socket.io with typing indicators, read receipts, online presence, and an auto-reply bot for guest users.",
+      "Developed authentication with Email/Password and Google OAuth, secured with JWT, alongside a Digital Wallet, Mobile Banking top-up, and Gift Card system.",
+      "Created a dedicated Image Upload Server in pure Node.js that organizes uploaded images by scope (products, profiles, offers, stories) and serves them as static files.",
+      "Designed a product catalog system with Categories, Sub-Categories, Offers, and Reviews, with full CRUD operations for merchants and an analytics dashboard for admins.",
+    ],
+  },
+},
+
   // Multiporpose Ai
     {
     id: "multipurpose-ai",
