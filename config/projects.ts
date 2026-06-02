@@ -187,8 +187,8 @@ export const Projects: ProjectInterface[] = [
   websiteLink: "https://nexus-global-shop.netlify.app/",
   githubLink: "https://github.com/mahfujalarony/Nexus-Global-Shop",
   techStack: ["React", "Vite", "Express.js", "MySQL", "Socket.io", "Tailwind CSS", "Redux Toolkit", "JWT"],
-  startDate: new Date("2024-08-01"),
-  endDate: new Date("2024-10-01"),
+  startDate: new Date("2025-08-01"),
+  endDate: new Date("2025-10-01"),
   companyLogoImg: "/projects/coverproject/nexus.png",
   pagesInfoArr: [
     {
